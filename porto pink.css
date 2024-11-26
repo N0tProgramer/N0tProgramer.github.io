@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* soft pink */
+    color: #880e4f; /* dark pink */
+    text-align: center;
+}
+
+header {
+    background-color: #f8bbd0; /* medium pink */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #ad1457; /* aesthetic pink */
+}
+
+main {
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #f8bbd0;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #880e4f;
+    font-size: 14px;
+}
